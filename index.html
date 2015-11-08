@@ -9,73 +9,94 @@
 
 </head>
 <body>
-     <header "StorWe, a sort of secret, shared writing experience" role="banner"></header>
-      <section>
-  <form action="/my-handling-form-page" method="post">
-     <div>
-          <label for="user_name">Name:</label>
-          <input type="text" id="name" name="user_name" />
-      </div>
-    <div>
-         <label for="email">E-mail:</label>
-         <input type="email" id="mail" name="user_email" />
-     </div>
+      <header "StorWe, a sort of secret, shared writing experience" role="banner"></header>
 
-    <div class="button">
-         <button aria-describedby="register">register</button>
-         <div id="descriptionRegister">Click here to register a new account</div>
-      </div>
-    <div class="button">
-        <button type="login">login with an existing account</button>
-    </div>
-  </form>
-
-<section>"this is subject theme/etc"
-  <form action="/setting, subject, theme" method="get">
-    <div>
-        <label for="setting">Setting:</label>
-        <input type="text" id="setting" name="setting" />
-      </div>
-    <div>
-        <label for="subject">Subject:</label>
-        <input type="text" id="subject" name="subject" />
+      <div class ="login/registration section">
+        <form action="/registration" method="post">
+          <div>
+            <label for="user_name">Name:</label>
+            <input type="text" id="name" name="user_name" />
+          </div>
+          <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="mail" name="user_email" />
+          </div>
+          <div class="button">
+            <button aria-describedby="register">register</button>
+            <div id="descriptionRegister">Click here to register a new account</div>
+          </div>
+          <div class="button">
+            <button type="login">login with an existing account</button>
+          </div>
+        </form>
        </div>
-     <div>
-        <label for="theme">Theme:</label>
-        <input type="text" id="theme" name="theme" />
-     </div>
-      </form>
-  </section>
 
-  <section>"this is contribution text"
-    <form action="/contribution text" method="post">
-     <div>
+      <div class="starting atrritbutes">
+        <form action="/setting, subject, theme" method="get">
+          <div>
+            <label for="setting">Setting:</label>
+            <input type="text" id="setting" name="setting" />
+          </div>
+          <div>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" />
+          </div>
+          <div>
+            <label for="theme">Theme:</label>
+            <input type="text" id="theme" name="theme" />
+          </div>
+         </form>
+       </div>
+
+       <div class="contributions">
+        <form action="/contribution text" method="post">
+          <div>
           <label for="Your Contribution">Contribution:</label>
-          <input type="text" id="contribution" name="contribution" />
+          <textarea id="contribution" name="contribution" rows="15" cols="50">
+          Write your contribution here to publish it to the StorWe progress
+           </textarea>
+          </div>
+          <div class="button">
+            <button type="submit">publish</button>
+          </div>
+        </form>
       </div>
 
+       <div class ="hints">
+        <form action="/hint" method="post">
+          <div>
+          <label for="hints">Hints:</label>
+          <textarea id="leave 5 keyword hints" name= "hints" rows="5" cols="15">
+          Leave hints here for the next contributor
+          </textarea>
+          </div>
+           <div class="button">
+             <button type="submit">submit</button>
+           </div>
+         </form>
+        </div>
 
-    <div class="button">
-         <button aria-describedby="register">register</button>
-         <div id="descriptionRegister">Click here to register a new account</div>
-      </div>
-    <div class="button">
-        <button type="login">login with an existing account</button>
-    </div>
-    </form>
-  </section>
+        <div class="previous story"
+          <form action="/previous story" method="request">
+            <div>
+             <label for="The Most Recent StorWe">Story:</label>
+             <textarea id="story" name="most recent stoWe" rows="20" cols="50">
+             I'm on the landing state
+            </textarea>
+            </div>
+          </form>
+        </div>
 
-  <section>"this is the hints section"
-    <form>
-    </form>
-  </section>
-
-  <section>"this is the whole story section"
-    <form>
-    </form>
-  </section>
-
-
+        <div class="story in progress"
+          <form action="/retrieve story in progress" method="request">
+           <div>
+            <label for="This StorWe in progress">StorWe:</label>
+            <textarea id="story" name="This storWe in progress" rows="20" cols="50">
+             I'm hidden until the contributor publishes their contrbution
+            </textarea>
+            </div>
+          </form>
+        </div>
 
 
 </body>
