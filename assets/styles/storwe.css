@@ -1,0 +1,47 @@
+body {
+  background: red;
+}
+form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 10px solid red;
+    border-radius: 1em;
+    font-family: 'Architects Daughter', cursive;
+    }
+
+/*font-family: 'Indie Flower', cursive;
+font-family: 'Inconsolata', ;
+font-family: 'Exo', sans-serif;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Amatic SC', cursive; */
+
+}
+
+form div + div {
+    margin-top: 1em;
+}
+label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+     font-family: 'Inconsolata', ;
+}
+
+
+input:focus, textarea:focus {
+    /* To give a little highlight on active elements */
+    border-color: #000;
+}
+.button {
+    /* To position the buttons to the same position of the text fields */
+    padding-left: 300px; /* same size as the label elements */
+}
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+}

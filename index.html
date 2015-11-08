@@ -1,28 +1,31 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" type="text/css" href="assets/styles/storwe.css">
+  <link href='https://fonts.googleapis.com/css?family=Indie+Flower|Inconsolata:400,700|Exo:400,300italic,500italic,800italic|Architects+Daughter|Amatic+SC:400,700' rel='stylesheet' type='text/css'>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>StorWe</title>
-  <link rel="stylesheet" href="">
+
 </head>
 <body>
     <header "StorWe, a sort of secret, shared writing experience" role="banner"></header>
+<form action="/my-handling-form-page" method="post">
+    <div>
+        <label for="user_name">Name:</label>
+        <input type="text" id="name" name="user_name" />
+    </div>
+    <div>
+        <label for="email">E-mail:</label>
+        <input type="email" id="mail" name="user_email" />
+     </div>
 
-      <form action="/login-registration" method="post">
-    <div>
-        <label for="name">user_name:</label>
-        <input type="text" id="user_name" />
-    </div>
-    <div>
-        <label for="mail">E-mail:</label>
-        <input type="email" id="mail" />
-    </div>
-      <div class="button">
-        <button type="Register">Register as a new user</button>
+    <div class="button">
+       <button aria-describedby="register">register</button>
+          <div id="descriptionRegister">Click here to register a new account</div>
     </div>
     <div class="button">
-        <button type="Login">Login</button>
+        <button type="login">login with an existing account</button>
     </div>
 </form>
 
