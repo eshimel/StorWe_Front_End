@@ -20,10 +20,8 @@ h1 {
 }
 
 form {
-
-
-    width: 45%;
-    float: right;
+    width: 25%;
+    float: left;
     clear: all;
 
     /* To see the outline of the form */
@@ -33,23 +31,25 @@ form {
     font-family: 'Indie Flower', cursive;
     }
 
-
 }
 textarea {
-    font-family: 'Indie Flower', cursive;
-    width: 60%;
+  width: 20%;
+    float: left;
+
+
     /* To see the outline of the form */
     padding: 1em;
-    border: 5px solid red;
+    border: 10px solid red;
     border-radius: 1em;
-}
+    font-family: 'Indie Flower', cursive;
+    }
 /*font-family: 'Indie Flower', cursive;
 font-family: 'Inconsolata', ;
 font-family: 'Exo', sans-serif;
 font-family: 'Architects Daughter', cursive;
 font-family: 'Amatic SC', cursive; */
 
-}
+
 
 form div + div {
     margin-top: 1em;
