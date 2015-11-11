@@ -25,7 +25,7 @@ position: absolute;
 top: 85px;
 
 right:0;
-width: 30%; /*Width of left frame div*/
+width: 20%; /*Width of left frame div*/
 height: 100%;
 overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
 background-color: white;
@@ -101,20 +101,7 @@ section {
     text-decoration: underline;
 
 }*/
-
-form {
-    width: 55%;
-    height: 65%;
-    margin: 5%;
-    /* To see the outline of the form */
-    padding: 1em;
-    border: 5px solid red;
-    border-radius: 1em;
-    font-family: 'Indie Flower', cursive;
-    }
-
-}
-#registration{
+#container {
 
      width: 40%;
     height:20%;
@@ -128,6 +115,19 @@ form {
     border-radius: 1em;
     font-family: 'Indie Flower', cursive;
 }
+
+form.contribution {
+    width: 55%;
+    height: 65%;
+    margin: 5%;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 5px solid red;
+    border-radius: 1em;
+    font-family: 'Indie Flower', cursive;
+    }
+
+
 #hints{
 
     width: 40%;
@@ -146,17 +146,17 @@ form {
 
     }
 
-#starting_attributes{
-   width: 60%;
+#outline{
+   width: 100px;
     height:35%;
     margin: 5%;
-    margin-top: 15%;;
+    margin-top: 40px;;
     padding: 3%;
     /* To see the outline of the form */
     padding-top: 3px;
     padding-bottom: 0px;
 
-    border: 5% solid green;
+    border: 5% solid red;
     border-radius: 1em;
     font-family: 'Indie Flower', cursive;
 
