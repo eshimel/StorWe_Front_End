@@ -1,7 +1,7 @@
-StorWe Web App
-About: StorWe is a collaborative storytelling site, that uses contributions from its users to write new stories.  It’s a little like the game Telephone and a little like Exquisite Corpse.  Each story begins with three prompts/clues: subject, setting, theme, and each story has exactly 10 contributors. Once ten contributions have been submitted, a new story prompt starts.
+#StorWe Web App
+StorWe is a collaborative storytelling site, that uses contributions from its users to write new stories.  It’s a little like the game Telephone and a little like Exquisite Corpse.  Each story begins with three prompts/clues: subject, setting, theme, and each story has exactly 10 contributors. Once ten contributions have been submitted, a new story prompt starts.
 
-User Stories:
+#User Stories:
 (Users are referred to by the game as contributors)
 
 As a visitor to the site, I want to know what I can do, so I can choose whether to register or not.
@@ -30,13 +30,13 @@ Deliverables: A refresh button that reloads the  limited contributor generated s
 
 Maybe: As a contributor, I want to be able to invite my friend to participate, so they can become contributors.
 
-WireFrames:
+#WireFrames:
 
 
 
 
 
-Logic
+#Logic
 Stories
  The most recent completed story is available to read on the login/registration page
  Stories are complete when Outline changes
@@ -60,12 +60,9 @@ middle of one
 completes one
 
 
-This project is not yet complete. please come back and check it out at a later time.
+#This project is not yet complete. please come back and check it out at a later time.
 
-Contributions
-Users make a contribution and submit it upon login
-A contribution is appended to the story in progress after submission 
-Stories are made up of ten contributions
+
 
 New user
 middle of one
