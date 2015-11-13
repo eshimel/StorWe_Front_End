@@ -1,0 +1,209 @@
+
+body{
+margin: 0;
+padding: 0;
+border: 0;
+width: auto;
+overflow: hidden;
+height: 100%;
+max-height: 100%;
+}
+
+#framecontentLeft
+{
+position: absolute;
+top: 85px;
+left: 0;
+width: 30%; /*Width of left frame div*/
+height: 100%;
+overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
+background-color: white;
+color: black;
+}
+ #framecontentRight{
+position: absolute;
+top: 85px;
+
+right:10px;
+width: 20%; /*Width of left frame div*/
+height: 100%;
+overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
+background-color: white;
+color: black;
+
+
+}
+#framecontentTop{
+left: 300px; /*Set left value to WidthOfLeftFrameDiv*/
+right: 0px;
+width: auto;
+height: 20%; /*Height of top frame div*/
+overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
+background-color: white;
+text-decoration: underline, 5px;
+}
+
+
+
+
+/*#framecontentRight{
+left: auto;
+right: 0;
+width: 150px; /*Width of right frame div*/
+/*overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
+/*background-color: navy;
+color: white;
+}*/
+header {
+  color: black;
+text-align: right;
+border-top: 30px;
+font-family: 'Architects Daughter', cursive;
+    font-size: 3em;
+
+    border-bottom: 5px, red;
+}
+#maincontent{
+position: fixed;
+left: 30%; /*Set left value to WidthOfLeftFrameDiv*/
+top: 85px; /*Set top value to HeightOfTopFrameDiv*/
+width: 50%;
+bottom: 0;
+overflow: auto;
+background: white;
+}
+
+
+
+
+.innertube{
+margin: 10px; /*Margins for inner DIV inside each DIV (to provide padding)*/
+}
+
+
+section {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 345px;
+    float: left;
+    /* To see the outline of the form */
+    padding: 5px;
+    padding-top: 0px;
+    border: 5px solid red;
+    border-radius: 1em;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.30em;
+}
+/*h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+
+}*/
+#container {
+
+     width: 40%;
+    height:20%;
+    margin: 5%;
+    margin-top: 10px;
+
+
+    /* To see the outline of the form */
+    padding: 5%;
+    border: 5% solid red;
+    border-radius: 1em;
+    font-family: 'Indie Flower', cursive;
+}
+
+form.contribution {
+    width: 50%;
+    height: 65%;
+    margin: 5%;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 5px solid red;
+    border-radius: 1em;
+    font-family: 'Indie Flower', cursive;
+    }
+
+
+#hints{
+
+    width: 40%;
+    height:25%;
+    margin: 10%;
+
+
+
+    /* To see the outline of the form */
+    padding: 5%;
+    padding-top: 3px;
+
+    border: 5% solid red;
+    border-radius: 1em;
+    font-family: 'Indie Flower', cursive;
+
+    }
+
+#outline{
+   width: 100px;
+    height:35%;
+    margin: 5%;
+    margin-top: 40px;;
+    padding: 3%;
+    /* To see the outline of the form */
+    padding-top: 3px;
+    padding-bottom: 0px;
+
+    border: 5% solid red;
+    border-radius: 1em;
+    font-family: 'Indie Flower', cursive;
+
+
+}
+textarea {
+    width: 88%;
+    height: 80%;
+    margin: 0px;
+    margin-left: 25px;
+   /* To see the outline of the form */
+    padding: 3px;
+    border: 5px solid red;
+    border-radius: 1em;
+    font-family: 'Indie Flower', cursive;
+    }
+/*font-family: 'Indie Flower', cursive;
+font-family: 'Inconsolata', ;
+font-family: 'Exo', sans-serif;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Amatic SC', cursive; */
+
+
+
+form div + div {
+    margin-top: 1em;
+}
+label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+     font-family: 'Amatic SC', cursive;
+     font-size: 1.5em;
+}
+
+
+input:focus, textarea:focus {
+    /* To give a little highlight on active elements */
+    border-color: #000;
+}
+.button {
+    /* To position the buttons to the same position of the text fields */
+    padding-left: 50%; /* same size as the label elements */
+    font-family: 'Inconsolata', ;
+}
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
