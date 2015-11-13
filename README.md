@@ -1,6 +1,3 @@
-# StorWe_Front_End
-link to back_end repo eshimel/StorWe_API
-
 StorWe Web App
 About: StorWe is a collaborative storytelling site, that uses contributions from its users to write new stories.  It’s a little like the game Telephone and a little like Exquisite Corpse.  Each story begins with three prompts/clues: subject, setting, theme, and each story has exactly 10 contributors. Once ten contributions have been submitted, a new story prompt starts.
 
@@ -33,6 +30,12 @@ Deliverables: A refresh button that reloads the  limited contributor generated s
 
 Maybe: As a contributor, I want to be able to invite my friend to participate, so they can become contributors.
 
+WireFrames:
+
+
+
+
+
 Logic
 Stories
  The most recent completed story is available to read on the login/registration page
@@ -46,6 +49,18 @@ Outlines change every ten Contributions
 Clues
 Users receive clues from the previous user upon login, unless you are the first user
 After they submit their contribution, users submit clues for the next user 
+
+Contributions
+Users make a contribution and submit it upon login
+A contribution is appended to the story in progress after submission 
+Stories are made up of ten contributions
+
+New user
+middle of one
+completes one
+
+
+This project is not yet complete. please come back and check it out at a later time.
 
 Contributions
 Users make a contribution and submit it upon login
