@@ -31,3 +31,29 @@ var api = {
     }, callback);
   }
 };
+
+
+$("#contribution").submit(function() {
+    var options = {
+      /* target:"#divResult", */
+
+      success: function(html) {
+        $("#divResult").replaceWith($('#divResult', $(html)));
+      },
+
+      url: "http://localhost:8081/sniper/estabelecimento/pesquisar.action"
+    }
+
+    $(this).ajaxSubmit(options);
+    return false;
+  });
+});
+
+
+$("#div_to_refresh").load("url_of_current_page.html #div_to_refresh")
+
+var request = new XMLHttpRequest();
+request.onload = callback;
+request.open("post", "http://localhost:3000/request");
+request.setRequestHeader("Content-Type", "application/json");
+request.send('{"my_data":"back to basics"}');
