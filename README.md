@@ -32,7 +32,7 @@ Maybe: As a contributor, I want to be able to invite my friend to participate, s
 
 #WireFrames:
 
-![alt tag](https://github.com/eshimel/StorWe_Front_End/master/planning/wireframes and template/blanks.pdf)
+!![copy of macbook screen with boxes](https://cloud.githubusercontent.com/assets/14185415/11225738/ea243fa8-8d49-11e5-9103-d29179d86273.jpg)
 
 
 
