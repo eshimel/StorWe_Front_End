@@ -31,8 +31,9 @@ Deliverables: A refresh button that reloads the  limited contributor generated s
 Maybe: As a contributor, I want to be able to invite my friend to participate, so they can become contributors.
 
 #WireFrames:
+I used the following template to make a paper prototype of my layout, to help me figure out my user stories.
 
-!![copy of macbook screen with boxes](https://cloud.githubusercontent.com/assets/14185415/11225738/ea243fa8-8d49-11e5-9103-d29179d86273.jpg)
+![copy of macbook screen with boxes](https://cloud.githubusercontent.com/assets/14185415/11225738/ea243fa8-8d49-11e5-9103-d29179d86273.jpg)
 
 
 
