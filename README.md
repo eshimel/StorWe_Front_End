@@ -70,3 +70,5 @@ completes one
 
 
 This project is not yet complete. please come back and check it out at a later time.
+Check out progress at http://eshimel.github.io/StorWe_Front_End/
+the backend repo can be found at https://github.com/eshimel/StorWe_API
